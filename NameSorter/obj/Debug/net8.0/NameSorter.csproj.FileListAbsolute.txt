@@ -1,0 +1,14 @@
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/bin/Debug/net8.0/NameSorter
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/bin/Debug/net8.0/NameSorter.deps.json
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/bin/Debug/net8.0/NameSorter.runtimeconfig.json
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/bin/Debug/net8.0/NameSorter.dll
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/bin/Debug/net8.0/NameSorter.pdb
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/NameSorter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/NameSorter.AssemblyInfoInputs.cache
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/NameSorter.AssemblyInfo.cs
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/NameSorter.csproj.CoreCompileInputs.cache
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/NameSorter.dll
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/refint/NameSorter.dll
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/NameSorter.pdb
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/NameSorter.genruntimeconfig.cache
+/Users/jeffreylin/Desktop/NameSorterApp/NameSorter/obj/Debug/net8.0/ref/NameSorter.dll
