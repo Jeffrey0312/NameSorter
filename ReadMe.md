@@ -68,15 +68,16 @@ To run the unit tests, execute the following command:
 ```bash
 cd NameSorterTests
 dotnet test
+```
 This will execute all tests and verify the correctness of the sorting logic.
 
-Code Quality & SOLID Principles
+## Code Quality & SOLID Principles
 
-Single Responsibility Principle: The program separates concerns between reading files, sorting names, and displaying results.
-Open/Closed Principle: Sorting logic can be extended without modifying core code.
-Liskov Substitution Principle: Ensures any extension of sorting logic can be substituted without breaking the application.
-Interface Segregation Principle: The functionality is divided appropriately without unnecessary dependencies.
-Dependency Inversion Principle: Uses dependency injection (if extended for scalability).
+1. Single Responsibility Principle: The program separates concerns between reading files, sorting names, and displaying results.
+2. Open/Closed Principle: Sorting logic can be extended without modifying core code.
+3. Liskov Substitution Principle: Ensures any extension of sorting logic can be substituted without breaking the application.
+4. Interface Segregation Principle: The functionality is divided appropriately without unnecessary dependencies.
+5. Dependency Inversion Principle: Uses dependency injection (if extended for scalability).
 
 Author
 Ke Lin
