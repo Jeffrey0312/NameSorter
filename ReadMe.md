@@ -1,44 +1,39 @@
-Name Sorter
+# Name Sorter
 
-Overview
+## Overview
 
-Name Sorter is a .NET Core console application that sorts a list of names based on their last name, followed by given names in case of a tie. The sorted names are printed to the console and saved to an output file.
+**Name Sorter** is a .NET Core console application that sorts a list of names based on their last name, followed by given names in case of a tie. The sorted names are printed to the console and saved to an output file.
 
-Features
+## Features
 
-Reads a list of names from a file.
+- Reads a list of names from a file.
+- Sorts names based on the last name, then given names.
+- Outputs sorted names to the console.
+- Saves the sorted list to `sorted-names-list.txt`.
+- Includes unit tests to verify sorting correctness.
 
-Sorts names based on the last name, then given names.
+## Usage
 
-Outputs sorted names to the console.
+### Prerequisites
 
-Saves the sorted list to sorted-names-list.txt.
+- .NET 8.0 SDK installed on your system.
+- A text file containing names (one name per line).
 
-Includes unit tests to verify sorting correctness.
+### Running the Program
 
-Usage
+1. Navigate to the project directory.
+2. Execute the following command:
 
-Prerequisites
+    ```bash
+    dotnet run -- ./unsorted-names-list.txt
+    ```
+    Replace `./unsorted-names-list.txt` with the path to your input file.
 
-.NET 8.0 SDK installed on your system
+    The sorted names will be displayed in the console and saved in `sorted-names-list.txt`.
 
-A text file containing names (one name per line)
+### Example
 
-Running the Program
-
-Navigate to the project directory.
-
-Execute the following command:
-
-dotnet run -- ./unsorted-names-list.txt
-
-Replace ./unsorted-names-list.txt with the path to your input file.
-
-The sorted names will be displayed in the console and saved in sorted-names-list.txt.
-
-Example
-
-Input (unsorted-names-list.txt)
+**Input (`unsorted-names-list.txt`)**
 
 Janet Parsons
 Vaughn Lewis
@@ -52,7 +47,7 @@ Hunter Uriah Mathew Clarke
 Mikayla Lopez
 Frankie Conner Ritter
 
-Output (sorted-names-list.txt)
+**Output (`sorted-names-list.txt`)**
 
 Marin Alvarez
 Adonis Julius Archer
@@ -66,30 +61,22 @@ Janet Parsons
 Frankie Conner Ritter
 Shelby Nathan Yoder
 
+## Testing
 
-Testing
+To run the unit tests, execute the following command:
 
-To run the unit tests, execute:
-
+```bash
 cd NameSorterTests
-
 dotnet test
-
 This will execute all tests and verify the correctness of the sorting logic.
 
 Code Quality & SOLID Principles
 
 Single Responsibility Principle: The program separates concerns between reading files, sorting names, and displaying results.
-
 Open/Closed Principle: Sorting logic can be extended without modifying core code.
-
 Liskov Substitution Principle: Ensures any extension of sorting logic can be substituted without breaking the application.
-
 Interface Segregation Principle: The functionality is divided appropriately without unnecessary dependencies.
-
 Dependency Inversion Principle: Uses dependency injection (if extended for scalability).
 
-
 Author
-
 Ke Lin
